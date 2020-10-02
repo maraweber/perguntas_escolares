@@ -1,0 +1,64 @@
+body{
+    background-color: khaki;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+section{
+    width: auto;
+    height: 551px;
+    margin: 10px;
+    text-align: center;
+}    
+
+
+div#resultado, div#resultado2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+div#correta{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: green;
+}
+
+div#errada{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: red;
+}
+
+button{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: lavender;
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+}    
+
+
+
